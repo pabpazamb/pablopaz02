@@ -1,0 +1,32 @@
+$primary: red;
+@use 'mixinsfunc';
+.nav{
+    background-color: slateblue;
+    
+    &__container{
+        width: 90%;
+        margin: auto;
+        height: 70px;
+      @include mixinsfunc.crear-flexbox(space-evenly);
+        gap: 1rem;
+    }
+
+    &__item {
+        color: antiquewhite;
+        text-decoration:salmon;
+       
+        &--active{
+            text-decoration: underline;
+        }
+
+        &:hover{
+            color: black;
+        }
+    }
+
+    @media (min-width: 764px){
+        &__container{
+            justify-content: flex-end;
+        }
+    }
+}
