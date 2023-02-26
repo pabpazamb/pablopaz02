@@ -14,8 +14,8 @@
 
 
     &__container{
-        height: calc(100vh - 60px);
-        background-image: linear-gradient(#76a41b4d,#0000004d), url('../img/gif_cocina.gif');
+        height: calc(80vh - 60px);
+        background-image: linear-gradient(#76a41b4d,#0000004d), url('../img/gif-1542040775.gif');
         background-size: cover;
 
         @include mixinsfunc.crear-flexbox(center);
