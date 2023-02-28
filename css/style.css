@@ -8,7 +8,7 @@ body {
 }
 
 .nav {
-  background-color: slateblue;
+  background-color: rgba(36, 3, 54, 0.499);
 }
 .nav__container {
   width: 90%;
@@ -29,6 +29,7 @@ body {
 .nav__item:hover {
   color: black;
 }
+
 @media (min-width: 764px) {
   .nav__container {
     justify-content: center;
@@ -37,7 +38,7 @@ body {
 
 .hero__container {
   height: calc(100vh - 70px);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3019607843), rgba(0, 0, 0, 0.3019607843)), url("../img/gif_cocina.gif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3019607843), rgba(0, 0, 0, 0.3019607843)), url("../img/gif-1542040775.gif");
   display: flex;
   align-items: center;
   justify-content: center;
